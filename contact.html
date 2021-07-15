@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Justice Personal Site - Contact</title>
+  </head>
+  <body>
+    <!-- Contact Details -->
+    <h2>Contact Details</h2>
+    <details open>
+      <!-- Address -->
+      <h3>Home Address</h3>
+      <address class="">
+        No. 4 Praise Home, Chief Kingdom Amadi Avenue, Rumuagholu Port-Harcour, Rivers State.
+      </address>
+      <!-- Phone -->
+      <h3>Phone</h3>
+      <a href="tel:08141829018">08141829018</a>
+      <!-- Email Address -->
+      <h3>Email</h3>
+      <a href="mailto:justicemajor9@gmail.com?subject=I need a website">justicemajor9@gmail.com</a>
+    </details>
+     <br>
+     <br>
+    <!-- User Data -->
+    <form action="https://formspree.io/f/xoqynlwb" method="POST" enctype="multipart/form-data">
+      <div class="">
+        <!-- Contact Name -->
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+      </div>
+      <div class="">
+        <!-- Contact Email -->
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
+      </div>
+      <div class="">
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+      </div>
+      <div class="">
+        <label for="comment">Leave A Message</label>
+        <br>
+        <textarea name="comment" rows="8" cols="50" id="comment" placeholder="Leave a message" required></textarea>
+      </div>
+      <div class="">
+        <button type="submit" name="button">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
